@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        timerText.text = "Time -> " + timer.GetTime().ToString("F2");
+        timerText.text = "Time -> " + timer.GetTime().ToString("F2 ");
     }
 
     // Update is called once per frame
