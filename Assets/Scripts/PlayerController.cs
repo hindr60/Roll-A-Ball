@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     public TMP_Text winTimeText;
     public GameObject winPanel;
     public GameObject inGamePanel;
+  
 
 
     void Start()
@@ -39,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        timerText.text = "Time -> " + timer.GetTime().ToString("F2 ");
+        timerText.text = "Time -> " + timer.GetTime().ToString("F2");
     }
 
     // Update is called once per frame
@@ -109,5 +110,6 @@ public class PlayerController : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
 
 }
